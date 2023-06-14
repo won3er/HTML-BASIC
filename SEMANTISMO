@@ -1,0 +1,112 @@
+<!--
+    
+1    semânticas
+
+tags semânticas:
+
+Uma tag semântica em HTML é uma tag que fornece significado e contexto para o conteúdo dentro dela. 
+Em outras palavras, é uma forma de estruturar o conteúdo de uma página web de maneira mais significativa 
+e compreensível tanto para os desenvolvedores quanto para os mecanismos de busca e leitores de tela.
+
+    <header>
+    <main>
+    <footer>
+    <section>
+    <article>
+    <aside>
+    <nav>
+    <ol>
+    <ul>
+    <li>
+
+<header>: Representa o cabeçalho de uma seção ou página.
+ É usado para incluir elementos como logotipos, títulos e informações de navegação.
+
+<nav>: Indica a seção de navegação do site. 
+É usada para agrupar os links de navegação que levam a outras páginas ou seções do site.
+
+<main>: Envolve o conteúdo principal da página. 
+É usado para destacar o conteúdo central do documento, excluindo cabeçalhos, rodapés e barras laterais.
+
+<section>: Divide o conteúdo em seções temáticas ou relacionadas. 
+Ajuda a organizar e estruturar o conteúdo de forma lógica.
+
+<article>: Representa um conteúdo independente e autônomo que pode ser reutilizado ou distribuído separadamente.
+ Pode conter, por exemplo, postagens de blog, artigos ou comentários.
+
+<aside>: Representa um conteúdo relacionado ou de suporte ao conteúdo principal.
+ Pode conter informações adicionais, como barras laterais, notas de rodapé, anúncios ou links relacionados.
+
+<footer>: Representa o rodapé da página ou de uma seção. 
+É usado para incluir informações como direitos autorais, informações de contato, links de política de privacidade, entre outros.
+
+<h1> a <h6>: São cabeçalhos de diferentes níveis. 
+ <h1> é o cabeçalho mais importante, usado para títulos principais, e <h6> é o menos importante.
+ Eles fornecem uma hierarquia para estruturar o conteúdo.
+
+<ul> e <ol>: <ul> cria uma lista não ordenada com marcadores e <ol> cria uma lista ordenada com números ou letras. 
+São usadas para criar listas de itens relacionados.
+
+<li>: Representa um item de uma lista.
+ Deve ser usado dentro de uma tag <ul> ou <ol> para cada item da lista.
+
+<table>: Cria uma tabela para exibir dados tabulares. 
+É composta por linhas <tr>, células de cabeçalho <th> e células de dados <td>.
+
+<form>: Cria um formulário para entrada de dados. 
+É usado para coletar informações dos usuários, como nome, e-mail, senha, entre outros.
+
+<input>: Cria campos de entrada de dados dentro de um formulário.
+ Pode ser usado para diferentes tipos de entrada, como texto, número, caixa de seleção, botão de rádio, entre outros.
+
+<label>: Associa um rótulo descritivo a um elemento de formulário.
+ Melhora a acessibilidade e a usabilidade do formulário, permitindo que os usuários saibam qual campo se refere a qual rótulo.
+
+<button>: Cria um botão clicável que pode ser usado para enviar um formulário ou executar uma ação específica na página.
+
+
+
+------------------------------------------------\\------------------------------------------------\\------------------------------------------------
+
+
+
+2   não semânticas
+
+tags não semântica
+
+As tags que não possuem semântica não definem um significado para aquele texto, 
+normalmente são utilizadas apenas para fins de separação e estilização. 
+Veja logo abaixo a lista de algumas tags sem semântica:
+
+<div>
+<span>
+<b>
+<i>
+<p>
+<img>
+<a>
+
+<div>: É uma tag genérica usada para criar divisões ou seções no HTML.
+ É amplamente utilizada para agrupar e estilizar elementos relacionados em conjunto.
+
+<span>: É uma tag genérica usada para aplicar estilos ou marcar partes específicas de texto ou elementos em uma página.
+É frequentemente usada em conjunto com CSS ou JavaScript para manipular elementos de forma mais granular.
+
+<b>: É uma tag de formatação que costumava ser usada para enfatizar o texto em negrito. 
+No entanto, é recomendado usar a tag <strong> em vez de <b>, pois <strong> possui um significado semântico mais forte.
+
+<i>: É uma tag de formatação que costumava ser usada para enfatizar o texto em itálico.
+ No entanto, é recomendado usar a tag <em> em vez de <i>, pois <em> possui um significado semântico mais claro.
+
+<p>: É uma tag usada para marcar parágrafos de texto.
+ Ela cria uma nova linha antes e depois do texto que envolve.
+
+<img>: É usada para inserir imagens em uma página. 
+Ela não carrega conteúdo textual, mas exibe o conteúdo visual na forma de uma imagem.
+
+<a>: É uma tag usada para criar links em uma página. 
+Ela envolve o texto ou a imagem que será clicada para redirecionar o usuário para outra página ou recurso.
+
+
+
+-->
