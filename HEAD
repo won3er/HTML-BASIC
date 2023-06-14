@@ -1,0 +1,130 @@
+<!-- 
+
+1: <head>: 
+     um elemento que contém informações sobre o documento.
+     essas informações não são mostradas na tela do usuário.
+     a tag contém informações sobre o documento, como:
+     metadados, links para arquivos externos e scripts, estilos CSS, entre outros. 
+
+     ex de uso: 
+
+     <head>
+
+     <title></title>
+     <style>
+     <base>
+     <meta>
+     <link>
+
+     </head>
+
+
+     exemplos de informações contidas dentro do <head>:
+
+
+1.2: <title>:
+     define o título do documento, mostrado na barra de título de um navegador ou na aba da página.
+
+     por ex: 
+     <title> Meu site aqui </title>
+
+
+
+1.3: <style type="text/css"> </style>
+(segunda opção   <link rel="stylesheet" href="styles.css">)
+     indica modificações, no o conteúdo direto da página, CSS
+
+     por ex: 
+
+     p{color:#f00}   : os textos na tag <p> ficarão com a cor #f00. 
+    
+     h1{color:rgb(21, 255, 0)}: os textos na tag <h1> ficarão com a cor rgb(21, 255, 0).
+
+     body{background-color: black;}    
+
+     assim sussessivamente, conforme a tag que você for modificar. 
+  
+*   se for o caso de usar o '''style''' como atributo, ele virá dentro de uma tag.
+
+     por ex:
+     <h1 style=''color: blue;''>
+
+     nesses casos, a cor padrão do <h1> será a cor do elemento style na tag.
+     não será a do conjunto <style>, do <head>,. como no primeiro caso acima. 
+
+
+
+1.4: <base> 
+     ao usar a tag <base>, você precisa especificar o link do próprio site que está criando como a URL base. 
+     Isso define a referência principal para todos os links relativos na página.
+     (href deve conter o caminho absoluto para o próprio site)
+     por ex:
+     <base href="https://www.example.com/">
+
+     quando usado em conjunto com a tag <a>, o link é automáticamente direcionado para a referência.
+     (a tag de linkagem deve estar no <body>)
+     por ex: 
+
+     <body>
+     <div id="menu">
+     <a href="inicio.html" class="menu-item"> início </a>
+     </body>
+
+     ficando assim: https://www.example.com/início.html
+
+     e assim sucessivamente, conforme o caminho na tag <a>
+
+
+
+1.5 <a> 
+     tag <a> é usada para criar um link clicável ou uma "âncora".
+     
+
+     por ex: 
+     <a href="https://meusite.com"></a>
+
+
+ 
+1.6: <meta>
+     a tag <meta> é usada para fornecer informações adicionais sobre uma página da web.
+     
+     por ex:
+     <meta charset="UTF-8">
+     informa ao navegador que o conjunto de caracteres usado na página é o UTF-8,
+     que é amplamente utilizado e suporta a maioria dos caracteres internacionais.
+
+     por ex: 
+     <meta name="description" content="Uma descrição curta da página.">
+     fornece uma descrição breve da página para mecanismos de busca
+     e outros serviços que exibem informações sobre a página.
+
+
+
+
+1.6   <link> 
+      é usada em HTML para vincular um documento externo ao documento atual.
+      geralmente usada para vincular arquivos CSS e ícone. 
+     
+      por ex: 
+      vinculando arquivo css: 
+
+      <link rel="stylesheet" href="caminho/do/arquivo">
+       ou 
+      <link rel="stylesheet" href="estilos.css">
+
+
+      a mesma coisa será para ícone. 
+      mudando apenas a '''rel'''do '''icon''' e acrescentando o valor '''type'''. 
+      
+      a href mais comuns são:
+      
+      icone.ico: <link rel="icon" href="icone.ico" type="image/x-icon">
+
+      icone.png: <link rel="icon" href="icone.png" type="image/png">
+
+      no valor '''type''' é onde será colocada a imagem do ícone.
+
+
+      
+     -->
+
